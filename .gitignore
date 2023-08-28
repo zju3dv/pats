@@ -1,0 +1,14 @@
+weights/
+.git/
+.idea/
+setup/build/
+setup/cmake-build-debug/
+setup/tensor_resize.egg-info/
+setup/dist/
+**/__pycache__/
+data/MegaDepth_v1
+data/megadepth_parameters
+data/ScanNet
+data/yfcc100M
+data/demo
+results/

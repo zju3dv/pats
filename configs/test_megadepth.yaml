@@ -1,0 +1,11 @@
+dataset: 'MegaDepth'
+checkpoint: ./weights/outdoor_coarse.pth
+checkpoint2: ./weights/outdoor_fine.pth
+checkpoint3: ./weights/outdoor_third.pth
+data_path: data/MegaDepth_v1/
+pairs_path: data/megadepth_parameters/
+seed: 18027
+threshold: 0.25
+if_outdoor: True
+merge_new: True
+if_local: True

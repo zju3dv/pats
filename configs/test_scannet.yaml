@@ -1,0 +1,11 @@
+dataset: 'ScanNet'
+checkpoint: ./weights/indoor_coarse.pth
+checkpoint2: ./weights/indoor_fine.pth
+checkpoint3: ./weights/indoor_third.pth
+data_path: data/ScanNet/
+pairs_path: data/scannet_test_pairs_with_gt.txt
+seed: 18027
+threshold: 0.4
+if_outdoor: False
+merge_new: False
+if_local: False

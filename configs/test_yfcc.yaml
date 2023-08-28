@@ -1,0 +1,11 @@
+dataset: 'YFCC'
+checkpoint: ./weights/outdoor_coarse.pth
+checkpoint2: ./weights/outdoor_fine.pth
+checkpoint3: ./weights/outdoor_third.pth
+data_path: data/yfcc100M/
+pairs_path: data/yfcc_test_pairs_with_gt.txt
+seed: 18027
+threshold: 0.25
+if_outdoor: True
+merge_new: True
+if_local: False
